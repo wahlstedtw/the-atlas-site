@@ -13,3 +13,21 @@ h3{font-size:1.05rem;margin:1.4rem 0 .2rem}
 a{color:var(--gold)}
 .muted{color:var(--ink-soft);font-style:italic}
 footer{text-align:center;color:var(--ink-soft);font-size:.9rem;padding:24px 16px;border-top:2px solid var(--ink)}
+.toc{columns:2;column-gap:24px;padding-left:1.2rem}
+@media (max-width:520px){.toc{columns:1}}
+table{width:100%;border-collapse:collapse;margin:.6rem 0 1rem;font-size:.95rem}
+th,td{text-align:left;vertical-align:top;padding:7px 8px;border-bottom:1px solid var(--rule)}
+th{border-bottom:2px solid var(--ink);font-weight:600}
+.face{display:inline-block;width:14px;height:14px;border-radius:50%;border:1.5px solid var(--ink);vertical-align:-2px;margin-right:4px}
+.face.happy{background:#5f9a3a}.face.neutral{background:#e2b93b}.face.sad{background:#d9782d}
+.face.starving{background:#b83a2e}.face.withering{background:#2e241a}
+.faces td:first-child{white-space:nowrap}
+.posts{list-style:none;padding:0}
+.posts li{padding:14px 0;border-bottom:1px solid var(--rule)}
+.posts time{display:block;color:var(--ink-soft);font-size:.9rem}
+.posts a{font-size:1.15rem;font-weight:600}
+.posts p{margin:.2rem 0 0}
+figure{margin:1rem 0 1.4rem;text-align:center}
+figure img,figure video{max-width:100%;height:auto;border:2px solid var(--ink);border-radius:10px}
+figure.phone img,figure.phone video{max-width:min(100%,360px)}
+figcaption{color:var(--ink-soft);font-style:italic;font-size:.92rem;margin-top:.35rem}
