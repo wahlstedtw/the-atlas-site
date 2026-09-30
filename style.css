@@ -1,0 +1,15 @@
+:root{--parchment:#EDE3C7;--parchment-dk:#E2D6B6;--ink:#2E241A;--ink-soft:#5b4d3b;--rule:#c9b894;--gold:#9c6b1f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--parchment);color:var(--ink);font-family:"Gelasio",Georgia,serif;line-height:1.6;font-size:17px}
+header{text-align:center;padding:48px 16px 28px;border-bottom:2px solid var(--ink);background:linear-gradient(180deg,var(--parchment-dk),var(--parchment))}
+header h1{margin:0;font-size:2.2rem;letter-spacing:.3px}
+header p{margin:.4rem 0 0;color:var(--ink-soft);font-style:italic}
+nav{margin-top:14px}
+nav a{color:var(--ink);margin:0 10px;text-decoration:none;border-bottom:1px solid var(--rule)}
+nav a[aria-current]{border-bottom:2px solid var(--gold)}
+main{max-width:720px;margin:0 auto;padding:28px 16px 48px}
+h2{font-size:1.35rem;border-bottom:1px solid var(--rule);padding-bottom:.25rem;margin-top:2rem}
+h3{font-size:1.05rem;margin:1.4rem 0 .2rem}
+a{color:var(--gold)}
+.muted{color:var(--ink-soft);font-style:italic}
+footer{text-align:center;color:var(--ink-soft);font-size:.9rem;padding:24px 16px;border-top:2px solid var(--ink)}
