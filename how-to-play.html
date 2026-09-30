@@ -175,7 +175,9 @@ that do make it have none to spare:</p>
   </ol>
   <p>Goods arriving from <strong>another ring</strong> fill that ring's shortages first, starting with the town
   that needs them most, so the stuck town is served even if the route ends at its ring's Market.
-  Longer hauls take more days and lose some cargo on the way, so a Market placed closer is worth something.
+  Longer hauls take more days, so a Market placed closer is worth something. On Easy and Normal every cart
+  arrives with its whole load. On Hard carts drop some cargo on the way, a little on every tile and more on
+  unfinished road.
   If the Trade screen says <em>No other market town is in reach</em>, build a Market further out, or connect
   two coastal Market towns by sea.</p>
   <figure class="phone"><img src="images/trade.jpg" alt="The Trade screen with a + New Route button and the standing orders the realm runs for you" loading="lazy"><figcaption>The Trade screen. On Easy and Normal the standing orders at the bottom run for you.</figcaption></figure>
@@ -184,6 +186,12 @@ that do make it have none to spare:</p>
   <ul>
     <li>Roads form on their own between settlements a few tiles apart, and bridges carry them over water.</li>
     <li>Goods only travel along roads you can see, and by boat between coastal Market towns.</li>
+    <li>A new road is built a section at a time and shows as a dashed line until it is complete. Trade over an
+    unfinished road is slower (on Normal and Hard), and the Trade screen says how many days are left.</li>
+    <li><strong>Hurry Road</strong> finishes a road right away for Timber, 1 for each tile still to build, paid from
+    the storehouse of a town at either end. Find it on the Trade screen, in a town's panel, or by tapping the
+    dashed road.</li>
+    <li>Tap a town to see what its storehouse holds: every good with how many it has.</li>
   </ul>
 
   <h2 id="capitals">Capitals</h2>
@@ -198,6 +206,8 @@ that do make it have none to spare:</p>
       <tr><td>In short</td><td>Everything runs itself</td><td>Food is shared, goods travel</td><td>Nothing arrives unless you send it</td></tr>
       <tr><td>Food in a ring</td><td>Shared</td><td>Shared</td><td>Not shared: you route it</td></tr>
       <tr><td>Goods in a ring</td><td>Shared</td><td>Carried for you by cart</td><td>Only what you route</td></tr>
+      <tr><td>Cargo on the way</td><td>Always arrives whole</td><td>Always arrives whole</td><td>Some is lost, more on unfinished road</td></tr>
+      <tr><td>Unfinished roads</td><td>Full speed</td><td>Slower until complete</td><td>Slower, and carry food only</td></tr>
       <tr><td>Hunger</td><td>A town stops growing but never shrinks</td><td>A town shrinks if it goes hungry too long</td><td>Same as Normal</td></tr>
       <tr><td>Town to City</td><td>Fastest</td><td>Medium</td><td>Slowest</td></tr>
     </tbody>
