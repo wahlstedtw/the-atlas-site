@@ -43,12 +43,12 @@
   <h2 id="painting">Painting the Map</h2>
   <p>When you draw a new map you can start on <strong>Blank Parchment</strong> or on a <strong>Starter Coast</strong>, a small random coast that is already painted and already founding towns. Paint beside it to grow it.</p>
   <ul>
-    <li><strong>Pick a terrain</strong> from the tile bar at the bottom of the screen.</li>
-    <li><strong>Tap</strong> to place one tile.</li>
-    <li><strong>Hold, then drag</strong> to paint several tiles.</li>
-    <li><strong>Double-tap a tile</strong> to erase it. You get its Land back, except for the tiles of a Starter Coast, which were free to begin with.</li>
-    <li><strong>Erasing:</strong> erase three tiles in a row, each within 2.5 seconds of the last, and Erasing turns on. Every tap then erases, which is handy for clearing an area. Pick any terrain in the tile bar to stop.</li>
-    <li><strong>Double-tap inside a ring of tiles</strong> to fill it with the terrain you have selected. The map's edge counts as part of the ring.</li>
+    <li><strong>Pick a terrain</strong> from the terrain bar at the bottom of the screen.</li>
+    <li><strong>Tap</strong> to place land.</li>
+    <li><strong>Hold, then drag</strong> to paint land.</li>
+    <li><strong>Double-tap land</strong> to erase it. You get its Land back, except for the land of a Starter Coast, which were free to begin with.</li>
+    <li><strong>Erasing:</strong> erase land three times in a row, each within 2.5 seconds of the last, and Erasing turns on. Every tap then erases, which is handy for clearing an area. Pick any terrain in the terrain bar to stop.</li>
+    <li><strong>Double-tap inside a ring of land</strong> to fill it with the terrain you have selected. The map's edge counts as part of the ring.</li>
     <li>Use the <strong>speed button</strong> to fast-forward time. At normal speed, one day in the world takes about a minute.</li>
   </ul>
   <p>When every open cell is painted, the map can grow. Tap the glowing edge to open new land on that side.</p>
@@ -86,12 +86,12 @@
   <table>
     <thead><tr><th>Stage</th><th>Size</th><th>Also needs</th></tr></thead>
     <tbody>
-      <tr><td>Village</td><td>2 tiles</td><td>A couple of days of age</td></tr>
-      <tr><td>Town</td><td>4 tiles</td><td>Age, and a small basket of its own goods</td></tr>
-      <tr><td>City</td><td>6 tiles</td><td>Age, a Market, enough food, and a basket of Timber and Stone or Ore</td></tr>
+      <tr><td>Village</td><td>2 land</td><td>A couple of days of age</td></tr>
+      <tr><td>Town</td><td>4 land</td><td>Age, and a small basket of its own goods</td></tr>
+      <tr><td>City</td><td>6 land</td><td>Age, a Market, enough food, and a basket of Timber and Stone or Ore</td></tr>
     </tbody>
   </table>
-  <p>Towns claim new tiles by themselves, but only onto painted land of <strong>their own terrain</strong> right
+  <p>Towns claim new land by themselves, but only onto painted land of <strong>their own terrain</strong> right
   beside them. If a town has nowhere to grow, you have to paint that land for it.</p>
 
   <h2 id="faces">Reading the Faces</h2>
@@ -124,7 +124,7 @@
       <tr><td><strong>Needs Land to Grow</strong></td><td>Tap <strong>Add Land</strong> and paint the lit cells in the town's own terrain.</td></tr>
     </tbody>
   </table>
-  <figure class="phone"><img src="images/town-panel.jpg" alt="Torrdeep's town panel reading Dwarves, Town, 7 tiles, with the status Waiting on Food and an Add Land button" loading="lazy"><figcaption>Tap a town to see what it is waiting on. Torrdeep's ring has no room left to farm, so its button reads Add Land.</figcaption></figure>
+  <figure class="phone"><img src="images/town-panel.jpg" alt="Torrdeep's town panel reading Dwarves, Town, 7 land, with the status Waiting on Food and an Add Land button" loading="lazy"><figcaption>Tap a town to see what it is waiting on. Torrdeep's ring has no room left to farm, so its button reads Add Land.</figcaption></figure>
   <p>Once every gate is met, the town spends its goods, becomes a City and turns green.</p>
 
   <h2 id="markets">Markets and Their Rings</h2>
@@ -144,14 +144,14 @@
   <ul>
     <li>Hamlets and Villages feed themselves. From Town up, settlements eat, and every stage eats more than the last.</li>
     <li>On Easy and Normal, a ring shares one food supply. As long as the ring grows enough, everyone in it is fed.</li>
-    <li>When a town runs short, tap it and press <strong>Add Food</strong>. Glowing spots show where a tile of Plains or Water would feed it, and a split spot takes either. If the selected tile would not feed a glowing spot, the card says why, for example <strong>Water Won't Feed Dragul Here</strong> or <strong>Dragul Already Has a Coast</strong>.</li>
+    <li>When a town runs short, tap it and press <strong>Add Food</strong>. Glowing spots show where Plains or Water would feed it, and a split spot takes either. If the selected terrain would not feed a glowing spot, the card says why, for example <strong>Water Won't Feed Dragul Here</strong> or <strong>Dragul Already Has a Coast</strong>.</li>
     <li>If there is no room left to farm, the button reads <strong>Add Land</strong> instead: fill the map and grow it, then feed the town in the new land.</li>
   </ul>
 
   <h2 id="goods">Goods and Trade</h2>
   <p>A town pays for becoming a City with goods that were <em>delivered</em> to it: Timber, plus either
   Stone or Ore. Goods travel by cart along the roads you see on the map and by boat between coastal
-  Market towns. Roads appear on their own between settlements a few tiles apart.</p>
+  Market towns. Roads appear on their own between settlements a short way apart.</p>
 
   <h3>On Easy and Normal</h3>
   <p>The realm balances goods for you. If a town is short of something it needs, carts bring it from
@@ -180,7 +180,7 @@ that do make it have none to spare:</p>
   <p>Goods arriving from <strong>another ring</strong> fill that ring's shortages first, starting with the town
   that needs them most, so the stuck town is served even if the route ends at its ring's Market.
   Longer hauls take more days, so a Market placed closer is worth something. On Easy and Normal every cart
-  arrives with its whole load. On Hard carts drop some cargo on the way, a little on every tile and more on
+  arrives with its whole load. On Hard carts drop some cargo on the way, a little on every stretch of road and more on
   unfinished road.
   If the Trade screen says <em>No other market town is in reach</em>, build a Market further out, or connect
   two coastal Market towns by sea.</p>
@@ -188,11 +188,11 @@ that do make it have none to spare:</p>
 
   <h2 id="roads">Roads</h2>
   <ul>
-    <li>Roads form on their own between settlements a few tiles apart, and bridges carry them over water.</li>
+    <li>Roads form on their own between settlements a short way apart, and bridges carry them over water.</li>
     <li>Goods only travel along roads you can see, and by boat between coastal Market towns.</li>
     <li>A new road is built a section at a time and shows as a dashed line until it is complete. Trade over an
     unfinished road is slower (on Normal and Hard), and the Trade screen says how many days are left.</li>
-    <li><strong>Build Road Now</strong> finishes a road under construction at once, after you confirm. It costs 1 Timber for each tile still to build (at least 1), paid from
+    <li><strong>Build Road Now</strong> finishes a road under construction at once, after you confirm. It costs 1 Timber for each stretch still to build (at least 1), paid from
     the storehouse of a town at either end; the button shows the cost beside the timber icon. Find it on the Trade screen's route row, in a town's panel, or by tapping the
     dashed road.</li>
     <li>Tap a town to see what its storehouse holds: every good with how many it has.</li>
