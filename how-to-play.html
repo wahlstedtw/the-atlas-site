@@ -17,7 +17,7 @@
   <nav><a href="./">Support</a><a href="how-to-play.html" aria-current="page">How to Play</a><a href="blog/">Blog</a><a href="privacy.html">Privacy</a></nav>
 </header>
 <main>
-  <p class="muted">Last updated: October 1, 2026</p>
+  <p class="muted">Last updated: October 3, 2026</p>
 
   <p>You draw the world. The peoples of the world settle it. Paint terrain onto the parchment,
   and Elves, Dwarves, Humans, Halflings and Orcs found hamlets on the land they love, then grow
@@ -110,16 +110,16 @@
     </tbody>
   </table>
   <p>The <strong>1 Needs You</strong> plate at the top of the screen (<strong>3 Need You</strong> when there are more) jumps to the next settlement that needs your help.</p>
-  <p>The town panel folds out of the way while you drag or pinch the map. Open it again with its arrow, a tap on the folded strip, or a tap on the same town.</p>
+  <p>The town panel folds out of the way while you drag or pinch the map. Folded, it shows only the town's name: tap the name, or tap the same town, to open it again. There is no Close button. Tapping the map closes the panel.</p>
 
   <h2 id="city">From Town to City</h2>
-  <p>A town with no Market covering it cannot get caravans or become a City. Most orange frowns are Towns stuck one step short of City. Tap the town, and its status names the
+  <p>A town that no trade network reaches cannot get caravans or become a City. Most orange frowns are Towns stuck one step short of City. Tap the town, and its status names the
   first thing it is missing:</p>
   <table>
     <thead><tr><th>Status</th><th>Fix</th></tr></thead>
     <tbody>
-      <tr><td><strong>Wants a Market</strong></td><td>Build a Market in this town, or in a Town nearby whose ring would reach it. See <a href="#markets">Markets</a>.</td></tr>
-      <tr><td><strong>Waiting on Food</strong></td><td>A City eats more than a Town. Its ring needs spare harvest before it can step up. See <a href="#food">Food</a>.</td></tr>
+      <tr><td><strong>Wants a Market</strong></td><td>Build a Market in this town, or in a Town nearby whose ring would reach it. Once a network reaches the town, its panel offers <strong>Trade</strong> instead. See <a href="#markets">Markets</a>.</td></tr>
+      <tr><td><strong>Waiting on Food</strong></td><td>A City eats more than a Town. Its ring needs spare harvest before it can step up. If a trade network reaches the town, <strong>Set Up Trade</strong> opens the Trade screen with that town selected. See <a href="#food">Food</a>.</td></tr>
       <tr><td><strong>Waiting on Goods</strong></td><td>The town has to collect Timber plus Stone or Ore in its own storehouse (8 of each on Easy and Normal, 5 on Hard). See <a href="#goods">Goods</a>.</td></tr>
       <tr><td><strong>Needs Land to Grow</strong></td><td>Tap <strong>Add Land</strong> and paint the lit cells in the town's own terrain.</td></tr>
     </tbody>
@@ -133,7 +133,17 @@
     <li>Before you build, a faint ghost ring shows exactly who the Market will reach.</li>
     <li>A Market reaches every settlement whose <strong>building</strong> sits inside its wide outer ring. Settlements in the ring share food, and on Easy they share goods too.</li>
     <li>Rings that overlap join into one bigger network.</li>
-    <li>Once a town is in a ring, its button changes from Build Market to <strong>Trade</strong> (or <strong>Market</strong> if it owns the Market).</li>
+    <li>A town that a network already reaches shows <em>In the (Name) Trade Network</em> on its panel. Its main button is <strong>Trade</strong>, not Build Market (<strong>Market</strong> if it owns the Market). It can still have a Market of its own: the Trade screen has a <strong>Build a Market Here</strong> button at the bottom.</li>
+    <li>A town that is <strong>Waiting on Food</strong> or <strong>Waiting on Goods</strong> and that a network reaches gets a <strong>Set Up Trade</strong> button, which opens the Trade screen with that town selected. The "needs you" toast carries the same button. <strong>Add Food</strong> and <strong>Bring Food</strong> still come first when they fix it.</li>
+  </ul>
+  <p>A town's Market screen lists <strong>What a Market Does</strong>:</p>
+  <ul>
+    <li>Its ring joins nearby towns into one trade network.</li>
+    <li>Towns in a network can become Cities.</li>
+    <li>A bigger storehouse.</li>
+    <li>On the coast, a port for sea lanes.</li>
+    <li>Shipments to other networks draw on its whole ring.</li>
+    <li>Its ring can join two networks into one.</li>
   </ul>
   <figure class="phone"><img src="images/market-ring.jpg" alt="A town panel with a Build Market button and a dashed ghost ring on the map" loading="lazy"><figcaption>Before you build, the dashed ghost ring shows who the Market would reach.</figcaption></figure>
   <figure class="phone"><img src="images/market-network.jpg" alt="The Skargul Trade Network label with its coverage ring and the rings of its member towns" loading="lazy"><figcaption>Once built, the ring and every town inside it form a trade network.</figcaption></figure>
@@ -164,6 +174,7 @@ that do make it have none to spare:</p>
     <li><strong>Makers with nothing to spare?</strong> A town only ships what it holds beyond its own reserve and its
     own next promotion. Paint more of that land so new and bigger towns grow up with spare.</li>
     <li>Give the new settlements time to grow. Villages and towns trade their spare, and hamlets trade nothing yet.</li>
+    <li>If a network reaches the stuck town, tap it and press <strong>Set Up Trade</strong> to open the Trade screen with that town selected.</li>
     <li>If the only town that makes it is in another ring, or in no ring at all, build a Market there. Goods cross
     between rings only from one Market town to another.</li>
   </ul>
