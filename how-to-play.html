@@ -133,7 +133,8 @@
     <li>Only a <strong>Town</strong> can build a Market. Tap it and press <strong>Build Market</strong>. It costs Land, shown under the button as <strong>-1 Land</strong> (-2 on Hard).</li>
     <li>Before you build, a faint ghost ring shows exactly who the Market will reach.</li>
     <li>A Market reaches every settlement whose <strong>building</strong> sits inside its wide outer ring. Settlements in the ring share food, and on Easy they share goods too.</li>
-    <li>Rings that overlap join into one bigger network.</li>
+    <li>Two Markets join into one bigger network when each one's ring reaches the other's Market town.</li>
+    <li>Rings can overlap without joining. A town that two networks reach is fed by the one whose Market is nearer.</li>
     <li>A town that a network already reaches shows <em>In the (Name) Trade Network</em> on its panel. Its main button is <strong>Trade</strong>, not Build Market (<strong>Market</strong> if it owns the Market). It can still have a Market of its own: the Trade screen has a <strong>Build a Market Here</strong> button at the bottom.</li>
     <li>A town that is <strong>Waiting on Food</strong> or <strong>Waiting on Goods</strong> and that a network reaches gets a <strong>Set Up Trade</strong> button, which opens the Trade screen with that town selected. The "needs you" toast carries the same button. <strong>Add Food</strong> and <strong>Bring Food</strong> still come first when they fix it.</li>
   </ul>
@@ -154,9 +155,11 @@
   <h2 id="food">Food</h2>
   <ul>
     <li>Hamlets and Villages feed themselves. From Town up, settlements eat, and every stage eats more than the last.</li>
-    <li>On Easy and Normal, a ring shares one food supply. As long as the ring grows enough, everyone in it is fed.</li>
+    <li>On Easy and Normal, a ring shares one food supply. As long as the ring grows enough, everyone in it is fed. A Market moves food around its ring but grows none: only Plains towns and towns with a dock do.</li>
     <li>When a town runs short, tap it and press <strong>Add Food</strong>. Glowing spots show where Plains or Water would feed it, and a split spot takes either. If the selected terrain would not feed a glowing spot, the card says why, for example <strong>Water Won't Feed Dragul Here</strong> or <strong>Dragul Already Has a Coast</strong>.</li>
     <li>If there is no room left to farm, the button reads <strong>Add Land</strong> instead: fill the map and grow it, then feed the town in the new land.</li>
+    <li>When the map cannot grow there either, the town reads <strong>Shrinking to Fit</strong> and its panel says how short its network is. Repaint a tile inside the ring as Plains or Water to feed it.</li>
+    <li>The town panel and the "needs you" toast say what to do for a hungry town: paint food, repaint a tile, grow the map, or build a Market.</li>
   </ul>
 
   <h2 id="goods">Goods and Trade</h2>
