@@ -120,7 +120,7 @@
     <thead><tr><th>Status</th><th>Fix</th></tr></thead>
     <tbody>
       <tr><td><strong>Wants a Market</strong></td><td>Build a Market in this town, or in a Town nearby whose ring would reach it. Once a network reaches the town, its panel offers <strong>Trade</strong> instead. See <a href="#markets">Markets</a>.</td></tr>
-      <tr><td><strong>Waiting on Food</strong></td><td>A City eats more than a Town. Its ring needs spare harvest before it can step up. On Easy and Normal a network shares its food, so a hungry town in one needs more farms in that network's reach (<strong>Add Food</strong>). On Hard, where food does not pool, a reached town gets <strong>Set Up Trade</strong>. See <a href="#food">Food</a>.</td></tr>
+      <tr><td><strong>Waiting on Food</strong></td><td>A City eats more than a Town. Its ring needs spare harvest before it can step up. On Easy and Normal every town a Market reaches shares one food supply for the whole map, so a hungry town there means the map needs more farms (<strong>Add Food</strong>). A town no Market reaches shows <strong>Needs a Market</strong>. On Hard, where food does not pool, a reached town gets <strong>Set Up Trade</strong>. See <a href="#food">Food</a>.</td></tr>
       <tr><td><strong>Waiting on Goods</strong></td><td>The town has to collect Timber plus Stone or Ore in its own storehouse (8 of each on Easy and Normal, 5 on Hard). See <a href="#goods">Goods</a>.</td></tr>
       <tr><td><strong>Needs Land to Grow</strong></td><td>Tap <strong>Add Land</strong> and paint the lit cells in the town's own terrain.</td></tr>
     </tbody>
@@ -132,7 +132,7 @@
   <ul>
     <li>Only a <strong>Town</strong> can build a Market. Tap it and press <strong>Build Market</strong>. It costs Land, shown under the button as <strong>-1 Land</strong> (-2 on Hard).</li>
     <li>Before you build, a faint ghost ring shows exactly who the Market will reach.</li>
-    <li>A Market reaches every settlement whose <strong>building</strong> sits inside its wide outer ring. Settlements in the ring share food, and on Easy they share goods too.</li>
+    <li>A Market reaches every settlement whose <strong>building</strong> sits inside its wide outer ring. On Easy and Normal every settlement any Market reaches shares the map's food, across all rings. On Easy they share goods too.</li>
     <li>Two Markets join into one bigger network when each one's ring reaches the other's Market town.</li>
     <li>Rings can overlap without joining. A town that two networks reach is fed by the one whose Market is nearer.</li>
     <li>A town that a network already reaches shows <em>In the (Name) Trade Network</em> on its panel. Its main button is <strong>Trade</strong>, not Build Market (<strong>Market</strong> if it owns the Market). It can still have a Market of its own: the Trade screen has a <strong>Build a Market Here</strong> button at the bottom.</li>
@@ -156,7 +156,7 @@
   <h2 id="food">Food</h2>
   <ul>
     <li>Hamlets and Villages feed themselves. From Town up, settlements eat, and every stage eats more than the last.</li>
-    <li>On Easy and Normal, a ring shares one food supply. As long as the ring grows enough, everyone in it is fed. A Market moves food around its ring but grows none: only Plains towns and towns with a dock do.</li>
+    <li>On Easy and Normal, every town a Market reaches shares one food supply for the whole map. As long as the map grows enough, everyone inside a ring is fed; a town outside every ring is not, and reads <strong>Needs a Market</strong>. The food meter in the title bar shows what the map grows and eats. A Market moves food around its ring but grows none: only Plains towns and towns with a dock do.</li>
     <li>When a town runs short, tap it and press <strong>Add Food</strong>. Glowing spots show where Plains or Water would feed it, and a split spot takes either. If the selected terrain would not feed a glowing spot, the card says why, for example <strong>Water Won't Feed Dragul Here</strong> or <strong>Dragul Already Has a Coast</strong>.</li>
     <li>If there is no room left to farm, the button reads <strong>Add Land</strong> instead: fill the map and grow it, then feed the town in the new land.</li>
     <li>When the map cannot grow there either, the town reads <strong>Shrinking to Fit</strong> and its panel says how short its network is. Repaint a tile inside the ring as Plains or Water to feed it.</li>
@@ -224,7 +224,7 @@ that do make it have none to spare:</p>
     <thead><tr><th></th><th>Easy</th><th>Normal</th><th>Hard</th></tr></thead>
     <tbody>
       <tr><td>In short</td><td>Everything runs itself</td><td>Food is shared, goods travel</td><td>Nothing arrives unless you send it</td></tr>
-      <tr><td>Food in a ring</td><td>Shared</td><td>Shared</td><td>Not shared: you route it</td></tr>
+      <tr><td>Food</td><td>Shared across every ring</td><td>Shared across every ring</td><td>Not shared: you route it</td></tr>
       <tr><td>Goods in a ring</td><td>Shared</td><td>Carried for you by cart</td><td>Only what you route</td></tr>
       <tr><td>Cargo on the way</td><td>Always arrives whole</td><td>Always arrives whole</td><td>Some is lost, more on unfinished road</td></tr>
       <tr><td>Unfinished roads</td><td>Full speed</td><td>Slower until complete</td><td>Slower, and carry food only</td></tr>
