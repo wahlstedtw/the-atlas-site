@@ -17,7 +17,7 @@
   <nav><a href="./">Support</a><a href="how-to-play.html" aria-current="page">How to Play</a><a href="blog/">Blog</a><a href="privacy.html">Privacy</a></nav>
 </header>
 <main>
-  <p class="muted">Last updated: October 7, 2026</p>
+  <p class="muted">Last updated: October 11, 2026</p>
 
   <p>You draw the world. The peoples of the world settle it. Paint terrain onto the parchment,
   and Elves, Dwarves, Humans, Halflings and Orcs found hamlets on the land they love, then grow
@@ -134,6 +134,8 @@
     <li>Before you build, a faint ghost ring shows exactly who the Market will reach.</li>
     <li>A Market reaches every settlement whose <strong>building</strong> sits inside its wide outer ring. On Easy and Normal every settlement any Market reaches shares the map's food, across all rings. On Easy they share goods too.</li>
     <li>Two Markets join into one bigger network when each one's ring reaches the other's Market town.</li>
+    <li>On Normal, any Market town can <strong>Link Trade Networks</strong> with a farther network (a chain-link button), from its town panel or its Market screen. The two networks must be within 6 tiles, measured between ring edges, joined by a road, or between two ports by a sea lane. The road runs from whichever Market of its network is nearest. The confirm shows the cost and <strong>Road Completion: N Days</strong> (<strong>Sea Lane Completion</strong> by sea); when the road is finished the networks link. When nothing is close enough, the Market screen says <strong>No Other Trade Networks Nearby</strong>.</li>
+    <li>Each ring wears its network's name on its top. The Atlas view does not draw Market rings.</li>
     <li>Rings can overlap without joining. A town that two networks reach is fed by the one whose Market is nearer.</li>
     <li>A town that a network already reaches shows <em>In the (Name) Trade Network</em> on its panel. Its main button is <strong>Trade</strong>, not Build Market (<strong>Market</strong> if it owns the Market). It can still have a Market of its own: the Trade screen has a <strong>Build a Market Here</strong> button at the bottom.</li>
     <li>A town that is <strong>Waiting on Goods</strong> and that a network reaches gets a <strong>Set Up Trade</strong> button, which opens the Trade screen with that town selected. On Hard, where food does not pool, a town <strong>Waiting on Food</strong> gets it too. <strong>Add Food</strong> and <strong>Bring Food</strong> still come first when they fix it.</li>
@@ -166,7 +168,7 @@
   <h2 id="goods">Goods and Trade</h2>
   <p>A town pays for becoming a City with goods that were <em>delivered</em> to it: Timber, plus either
   Stone or Ore. Goods travel by cart along the roads you see on the map and by boat between coastal
-  Market towns. Roads appear on their own between settlements a short way apart.</p>
+  Market towns. Roads appear on their own between the towns of one trade network.</p>
 
   <h3>On Easy and Normal</h3>
   <p>The realm balances goods for you. If a town is short of something it needs, carts bring it from
@@ -204,7 +206,8 @@ that do make it have none to spare:</p>
 
   <h2 id="roads">Roads</h2>
   <ul>
-    <li>Roads form on their own between settlements a short way apart, and can cross water.</li>
+    <li>Roads form on their own between nearby towns of one trade network, and can cross water. A map with no Market has no roads.</li>
+    <li>A town outside every ring gets a road only by <strong>Connect to Market</strong>: a road to the nearest town a Market reaches, which brings it in once the road is finished. A town that joins this way can itself be the next town's Connect.</li>
     <li>Goods only travel along roads you can see, and by boat between coastal Market towns.</li>
     <li>A new road is built a section at a time and shows as red dashes until it is complete. Trade over an
     unfinished road is slower (on Normal and Hard), and the Trade screen says how many days are left.</li>
@@ -247,6 +250,13 @@ that do make it have none to spare:</p>
     <li><strong>What's New</strong> plays a short tour of the Atlas: the compass, the ranges, renaming, Names and Colors, and Share. It plays once when you first open the game after an update. To see it again, tap the red <strong>What's New</strong> ribbon on the home screen (at the bottom, or the top left when your device is sideways; it stays bold until you have watched the tour to the end), or tap <strong>Play</strong> on the What's New row in the Cartographer's Desk settings.</li>
   </ul>
   <figure class="phone"><img src="images/atlas.jpg" alt="Emberfall drawn as an ink map: round trees and pines, a hatched lake shore, farmsteads, cacti and mountains, with the menu, Share and compass buttons" loading="lazy"><figcaption>Emberfall in the Atlas view.</figcaption></figure>
+
+  <h2 id="daynight">Day and Night</h2>
+  <ul>
+    <li>The last row of the title plate is a <strong>day bar</strong>: a sun or moon rides it through the day, and the new day's number glows when it starts.</li>
+    <li>At night a darkness sweeps across the map. It never touches the Atlas view or a shared picture.</li>
+    <li>To turn it off, open the Cartographer's Desk settings and switch <strong>Day and Night</strong> off. It is on by default.</li>
+  </ul>
 
   <h2>Still Stuck?</h2>
   <p>Write to <a href="mailto:dev@articlegames.com">dev@articlegames.com</a> and tell us what the town's
